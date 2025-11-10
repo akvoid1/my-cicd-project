@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_REGION = 'us-east-1'
         ECR_REPO = '884990039558.dkr.ecr.us-east-1.amazonaws.com/my-cicd-app'
-        EC2_HOST = 'ubuntu@13.221.41.71'
+        EC2_HOST = 'ubuntu@34.193.182.182'
         IMAGE_TAG = "${BUILD_NUMBER}"
         APP_PORT = '3000'
         AWS_ACCESS_KEY_ID = credentials('aws-access-key-id')
